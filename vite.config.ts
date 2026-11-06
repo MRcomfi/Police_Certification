@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   // Относительные пути: собранный сайт работает из любой папки на любом статическом хостинге.
-  base: './',
+  base: '/Police_Certification/',
   plugins: [react()],
   server: {
     allowedHosts: ['.trycloudflare.com'],
